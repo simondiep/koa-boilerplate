@@ -1,0 +1,40 @@
+{
+  "name": "node-lobby",
+  "version": "1.0.0",
+  "description": "Nodejs Socket.io lobby",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simondiep/node-lobby.git"
+  },
+  "keywords": [
+    "node",
+    "socketio",
+    "lobby"
+  ],
+  "author": "Simon Diep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simondiep/node-lobby/issues"
+  },
+  "homepage": "https://github.com/simondiep/node-lobby#readme",
+  "dependencies": {
+    "koa": "^2.0.0",
+    "socket.io": "^1.4.6"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-node6": "^0.2.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "eslint": "^2.13.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "nodemon": "^1.9.2"
+  }
+}
